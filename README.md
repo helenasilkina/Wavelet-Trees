@@ -1,4 +1,4 @@
-The wavelet tree, invented by Grossi, Gupta, and Vitter[1], is an important data structure with a vast number of applications to stringology, computational geometry, and others[2].
+The wavelet tree, invented by Grossi, Gupta, and Vitter[1] as a data structure to represent a sequence and answer some queries on it, is an important data structure with a vast number of applications to stringology, computational geometry, and others[2].
 
 There are optimised search methods using the suffix array combined with auxiliary data structures, such as the LCP (longest-common prefix) array, or wavelet trees. See for details [3].
 
