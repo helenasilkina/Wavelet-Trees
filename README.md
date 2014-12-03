@@ -10,3 +10,4 @@ For a string w of length n, this data structure occupies O(n) words, takes O(n�
 on Algorithms, 2(4):611–639, October 2006.</a>
 2. <a href="http://www.dcc.uchile.cl/~gnavarro/ps/cpm12.pdf">Gonzalo Navarro. Wavelet trees for all. Journal of Discrete Algorithms: 23rd Annual Symposium on Combinatorial Pattern Matching, 25:2–20, 2014</a>
 3. <a href="http://www.captura.uchile.cl/bitstream/handle/2250/6348/Navarro_Gonzalo-%20suc.pdf?sequence=1">G. NAVARRO, V. MAKINEN Compressed Full-Text Indexes</a>
+4. <a href="http://arxiv.org/pdf/1408.6182v3.pdf">Maxim Babenko, Pawe l Gawrychowski, Tomasz Kociumaka, and Tatiana Starikovskaya1 Wavelet Trees Meet Suffix Trees</a>
