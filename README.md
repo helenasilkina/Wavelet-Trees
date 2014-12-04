@@ -1,10 +1,10 @@
-The wavelet tree, invented by Grossi, Gupta, and Vitter[1] as a data structure to represent a sequence and answer some queries on it, is an important data structure with a vast number of applications to stringology, computational geometry, and others[2].
+Вейвлет-деревья, изобретенный Grossi, Гупта, и Vitter[1] в качестве структуры данных для представления последовательности и получения ответа на запросы, применяются в различных приложенях в стрингологии, вычислительной геометрии, и других[2].
 
-There are optimised search methods using the suffix array combined with auxiliary data structures, such as the LCP (longest-common prefix) array, or wavelet trees. See for details [3].
+Есть оптимизированные методы поиска с помощью суффиксного массива в сочетании со вспомогательными структурами данных, такими как LCP (длинный-общий префикс) массив, или вейвлет-деревья. См. подробности в [3].
 
-A Wavelet Tree converts a string into a balanced binary-tree of bit vectors, where a 0 replaces half of the symbols, and a 1 replaces the other half. This creates ambiguity, but at each level this alphabet is filtered and re-encoded, so the ambiguity lessens, until there is no ambiguity at all. Given a 25-letter English alphabet indexed from 0 to 25 the string 'bananaaa' becomes 1,1,13,1,1,1,0,0.
+Вейвлет-дерево преобразует строку в сбалансированное двоичное дерево битовых векторов, где 0 заменяет половину символов, и 1 заменяет другую половину. Это создает двусмысленность, но на каждом уровне этот алфавит фильтруется и повторно перекодируется, так что неопределенность уменьшается до того момоента, когда исчезает двусмысленность. Учитывая, что в английском алфавите 25 букв, индексированных от 0 до 25, то например строка 'bananaaa' превращается в 1,1,13,1,1,1,0,0.
 
-For a string w of length n, this data structure occupies O(n) words, takes O(n√log n) time to construct, and simultaneously captures the combinatorial structure of substrings of w while enabling efficient top-down traversal and binary search.
+Для слова w длины n, эта структура данных занимает O(n) слов, расходует O(n√log n) времени, чтобы построить, и одновременно составить комбинаторную структуру подстроки w, обеспечивая эффективный нисходящий обход и бинарный поиск.
 
 1. <a href="http://www.di.unipi.it/~grossi/PAPERS/soda04.pdf">Luca Foschini, Roberto Grossi, Ankur Gupta, and Jeffrey Scott Vitter. When indexing equals compression: experiments with compressing suffix arrays and applications. ACM Transactions
 on Algorithms, 2(4):611–639, October 2006.</a>
